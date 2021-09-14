@@ -1,0 +1,328 @@
+/* Users */
+@media (max-width: 768px){ 
+    .container-profile-edit{
+        flex-direction: column;
+    }
+    .container-profile-info{
+        margin-bottom: 30px;
+    }
+    .password-profile{
+        margin: 0 auto;
+    }
+} 
+
+
+.btn-danger:hover{
+    background-color:#d4392e!important;
+    border-color:#d4392e!important;
+}
+
+
+.container-users-edit{
+    margin-top: 60px!important;
+}
+.container-image-card{
+    height: 80px!important;
+}
+.image-profile-card.profile{
+    filter: brightness(0.7);
+}
+.container-options-profile{
+    margin-right: 10px!important;
+}
+.container-options-profile:last-of-type{
+    margin-right: 0!important;
+}
+.container-buttons-experience{
+    justify-content: end;
+}
+
+.container-show{
+    align-self: center;
+}
+.container-show input{
+    margin-right: 5px!important;
+}
+.container-show label{
+    margin-bottom: 0!important;
+    font-size: 14px!important;
+    font-weight: 500!important;
+}
+.select-image-profile{
+    position: absolute;
+    z-index: 4;
+    left:0;
+    right:0;
+    margin: auto;
+    top: -5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+
+.image-profile-card{
+    border-radius: 900px;
+    width: 150px;
+    height:150px;
+    position: absolute;
+    top:-70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.text-card{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.hierarchy-card{
+    font-size: 14px;
+    color: rgb(66, 54, 54);
+    font-weight: 600;
+}
+.name-card{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(97, 97, 97);
+}
+
+.description-card{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(165, 165, 165);
+}
+
+.container-select-profile-image{
+    margin-top: 90px!important;
+}
+
+.button-select-image{
+    width: 135px;
+    background-color: #9c27b0;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    cursor:pointer;
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+    transition: all .2s ease-in;
+}
+
+.button-select-image:hover{
+    background-color: #883097;
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+
+/* Users Experience */
+
+.image-logo-experience{
+    border-radius: 900px;
+    height: 60px;
+    width: 60px;
+}
+
+.label-to-date{
+    margin-bottom: 0!important;
+    align-self: center;
+    margin-right: 15px;
+}
+
+.datepicker{
+    border-width: 0.5px;
+    border-style: solid;
+    width: 125px;
+    cursor:pointer;
+    border-radius: 5px;
+    border-color: rgb(161, 159, 159);
+    font-weight: 500!important;
+    padding: 10px 0px 10px 10px;
+    height: max-content;
+}
+.preview-experience-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 900px;
+    cursor:pointer;
+}
+/* Media Manager*/
+
+.container-file-manager{
+    width: 95%;
+    height: 650px;
+    margin: auto;
+}
+
+
+.icons-card{
+    padding:15px 20px!important;
+    background: #ab47bc!important;
+}
+.icons-card i{
+    
+    font-size: 35px!important;
+}
+
+.label-tasks{
+    text-align: center!important;
+}
+
+.button-form{
+    width: 100px;
+    background-color: #9c27b0;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    cursor:pointer;
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+    transition: all .2s ease-in;
+}
+
+.button-form:hover{
+    background-color: #883097;
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+    color: white;
+}
+
+
+/* Posts */
+.content-editor-posts{
+    min-width: 630px;
+    max-width: 630px;
+}
+.tox.tox-tinymce{
+    margin-top: 20px!important;
+    height: 800px!important;
+}
+
+.container-post-options{
+    justify-content: space-between;
+    width: 85%;
+}
+
+.tittle-options-post{
+    color: rgb(156, 156, 156);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container-option{
+    width: 30%;
+}
+.container-post-categories{
+    width: 30%!important;
+}
+.container-post-permissions{
+    width: 40%!important;
+}
+.container-categories{
+    min-height: 200px;
+    max-height: 200px;
+    width: 95%;
+    
+    border-style: solid;
+    border-color: rgb(212, 212, 212);
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+    overflow:scroll;
+}
+
+.list-categories{
+    list-style: none;
+    padding-top:15px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+.list-categories li label{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.post-visibilities{
+    text-align: center!important;
+    cursor: pointer;
+    font-weight: 700;
+    border-style: solid;
+    color:rgb(105, 105, 105);
+    border-width: 0.5px;
+    border-color: rgb(146, 146, 146);
+}
+.container-permission {
+
+    width: 80%;
+    margin:0 auto 25px;
+}
+.container-permission:last-of-type{
+    margin-bottom: 0;
+}
+.check-permissions{
+    width: 20px!important;
+    height: 20px!important;
+    margin-right: 12px;
+}
+
+.label-check-permissions{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(61, 61, 61);
+    font-size: 14px;
+}
+
+.featured-post-image{
+    min-width: 180px;
+    max-width: 180px;
+    min-height: 180px;
+    max-height: 180px;
+    cursor:pointer;
+}
+
+/* Settings */
+
+.select-settings{
+    background: #9c27b0!important;
+    border-radius: 5px;
+    border-color: #621a6e;
+    padding-top: 5px;
+    cursor:pointer;
+    transition: .2s all linear;
+}
+.select-settings:hover{
+    background: #7c1c8d!important;
+}
+
+.icon-select-settings{
+    color: #fff!important;
+    font-size: 20px;
+    padding: 0;
+}
+
+.select-order{
+    width: 60px;
+text-align: center;
+}
+
+/* Dashboard */
+
+.subtittle-card-statistics{
+    font-size: 17px!important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600!important;
+    margin-bottom: 15px!important;
+}
+
+.container-chart-visits .ct-chart-bar .ct-series-b .ct-bar{
+   stroke: #c770d6!important;
+}
+
+

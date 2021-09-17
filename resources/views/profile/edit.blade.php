@@ -16,7 +16,7 @@
     <div class="d-flex col-md-12 mx-auto container-profile-edit">
       <div class="row col-md-8 container-profile-info">
         <div class="col-md-12">
-          <form method="post" action="{{ route('profile.update') }}" autocomplete="off" class="form-horizontal">
+          <form method="post" action="{{ route('profile.update') }}" autocomplete="off" class="form-horizontal d-flex">
             @csrf
             @method('put')
             @include('layouts.users.form-profile')

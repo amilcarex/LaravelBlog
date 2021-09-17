@@ -8,7 +8,7 @@
                 </div>
                 <div class="ml-auto d-flex">
                     @if(auth()->user()->admin == 1)
-                    <form action="{{route('show.user')}}" method="post">
+                    <form action="{{route('show.user')}}" class="d-flex" method="post">
                         @csrf
                         @if(isset($user))
                         <div class="d-flex container-show container-options-profile mr-3">

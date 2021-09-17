@@ -115,8 +115,7 @@ class UserController extends Controller
                 'hierarchy' => 'string|nullable',
                 'description' => 'string|nullable',
                 'skills' => 'string|nullable',
-                'password' =>
-                'required|string|min:8|regex:/^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/|max:16',
+                'password' => 'required|string|max:16',
                 'new_password' =>
                 'required|string|min:8|regex:/^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/|max:16'
             ]

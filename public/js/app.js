@@ -1,5 +1,5 @@
 
-let url = "http://localhost/blog-feragon-full/public";
+let url = "http://localhost/LaravelBlog/public";
 // let url = document.domain;
 $(document).ready(function () {
     //Alerts or Notifications

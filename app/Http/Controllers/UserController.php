@@ -123,6 +123,10 @@ class UserController extends Controller
 
 
         $user = User::find($request->user_id);
+        
+        if ($user->id == 1 && $user->admin == 1) {
+            return redirect()->route('edit.user', ['id' => $user->id])->with(['error' => 'main_account']);
+        }
         if (!Hash::check( $request->password , $user->password)) {
             return redirect()->route('edit.user', ['id' => $user->id])->with(['error' => 'current_password_error']);
         }

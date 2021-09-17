@@ -37,6 +37,10 @@ class ProfileController extends Controller
     public function update(ProfileRequest $request)
     {
         $user = User::find(auth()->user()->id);
+
+        if($user->id == 1 && $user->admin == 1){
+            return redirect()->route('edit.user', ['id' => $user->id])->with(['error' => 'main_account']);
+        }
         $user_role = $user->roles()->first();
         if ($user->admin == 1 && $request->role != 1) {
             return redirect()->route('edit.user', ['id' => $user->id])->with(['error' => 'main_account']);
